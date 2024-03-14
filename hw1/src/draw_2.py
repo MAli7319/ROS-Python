@@ -63,7 +63,6 @@ class Draw2():
     def poseCallback(self, pose_message):
         
         self.X = pose_message.x
-        print(self.X)
 
 
     def draw_two(self):
